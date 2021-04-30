@@ -1,0 +1,52 @@
+<h1>The Legendary Martial Artist</h1>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+<style>
+    body {
+      background-image: url('images/dojo.jpg');
+      background-size: 100% 100%;
+    }
+
+    h1{
+      text-align: center;
+      color : white;
+      font-family: 'New Rocker', cursive;
+      font-weight: 500;
+      font-size: 60px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-image: url('images/steel.jpg');
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px 5px;
+      padding: 5px 10px;
+      font-size: 15px;
+      font-weight: bolder;
+      cursor: pointer;
+      text-align: center;
+      outline: none;
+      color: rgb(17, 1, 1);
+      background-image: url('images/old.jpg');
+      border: 2px solid #3b3023;
+      border-radius: 15px;
+      box-shadow: 0 9px rgb(66, 44, 2);
+    }
+
+    .button:active {
+      background-color: #af8a0f;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+</style>
+
+<canvas id="myCanvas" width="500" height="500"></canvas>
+<button class="button" id="kick">Kick(Shift)</button>
+<button class="button" id="punch">Punch(Enter)</button>
+<button class="button" id="forward">Forward(Right arrow key)</button>
+<button class="button" id="block">Block(Ctrl)</button>
+<button class="button" id="backward">Backward(Left arrow key)</button>
+
+
+<script type="text/javascript" src="main.js"></script>
